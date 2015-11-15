@@ -1,0 +1,27 @@
+﻿Сборка начата 15.11.2015 20:07:31.
+     1>Проект "c:\Users\Николай\documents\visual studio 2015\Projects\SearchFeatures_VS2015\SearchFeatures_VS2015\SearchFeatures_VS2015.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\csubwordwithquantity.h(72): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\csubwordwithquantity.h(104): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisonthecountofoccurrences.h(13): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(203): error C2679: бинарный "+=": не найден оператор, принимающий правый операнд типа "CList<CSubwordWithQuantity>" (или приемлемое преобразование отсутствует)
+         c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\clist.h(77): note: может быть "CList<CSubwordThisPoSWithQuantity> &CList<CSubwordThisPoSWithQuantity>::operator +=(const CList<CSubwordThisPoSWithQuantity> &)"
+         c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(203): note: при попытке сопоставить список аргументов "(CList<CSubwordThisPoSWithQuantity>, CList<CSubwordWithQuantity>)"
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(224): error C2065: CSubword: необъявленный идентификатор
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(224): error C2923: CList: "CSubword" не является допустимым аргументом типа шаблон для параметра "Telem"
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(224): error C2512: CList: нет подходящего конструктора по умолчанию
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(225): error C3861: CreateFullList: идентификатор не найден
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(228): error C2065: CSubword: необъявленный идентификатор
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(228): error C2923: CList: "CSubword" не является допустимым аргументом типа шаблон для параметра "Telem"
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(228): error C2514: CList: не имеет конструкторов
+         c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\clist.h(62): note:  см. объявление "CList"
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(229): error C3861: FillFullList: идентификатор не найден
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\analysisofthesubwordsattheend.h(258): error C3861: PrintListOfTheSubwords: идентификатор не найден
+     1>c:\users\николай\documents\visual studio 2015\projects\searchfeatures_vs2015\searchfeatures_vs2015\source.cpp(124): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>Сборка проекта "c:\Users\Николай\documents\visual studio 2015\Projects\SearchFeatures_VS2015\SearchFeatures_VS2015\SearchFeatures_VS2015.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.04
